@@ -1,3 +1,5 @@
+package ru.java.lesson6;
+
 import java.util.Scanner;
 
 public class HomeWork {
