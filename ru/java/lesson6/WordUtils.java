@@ -9,13 +9,11 @@ public class WordUtils {
         return Arrays.toString(words);
     }
 
-    private WordUtils() {
-
-    }
-
     public static void main(String[] args) {
         System.out.println("Ввод пустой строки - " + WordUtils.reverseWords(""));
         System.out.println("Ввод одного слова - " + WordUtils.reverseWords("word"));
         System.out.println("Ввод двух слов - " + WordUtils.reverseWords("слова два zzz"));
+//        String str = String.format("%04d", 9);
+//        System.out.printf(str);
     }
 }
